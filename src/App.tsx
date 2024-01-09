@@ -102,7 +102,7 @@ function App() {
               />
               
               <p>
-                Altogether, from purchasing the car to getting it in race ready form took me and my 3 friends about 2 years. Work 
+                Altogether, from purchasing the car to getting it in race ready form took my 3 friends and I about 2 years. Work 
                 would take place during school breaks, on weekends, and after work. Throughout the project I taught myself to weld, as 
                 well as a vast amount of general mechanical knowledge. 
               </p>
@@ -140,7 +140,7 @@ function App() {
               </p>
 
               <p>
-                However unfortunate the early retirement was, I was still super proud of what me and my teammates had accomplished. From finding out about
+                However unfortunate the early retirement was, I was still super proud of what my teammates and I had accomplished. From finding out about
                 Lemons in late 2020 to finally racing in 2022 had been a long and difficult journey. We all had learned a ton. I specifically learned a ton 
                 about automotive electrics, internal compbustion engines, metallurgy, and the iterative design process. We all walked away far more knowledgable 
                 than when we started the project, and we were all incredibly proud of what we accomplished.
