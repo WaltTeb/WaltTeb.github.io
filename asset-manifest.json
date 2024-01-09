@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.907a1ff1.css",
+    "main.js": "/static/js/main.6a3536bd.js",
+    "static/js/787.a2f25686.chunk.js": "/static/js/787.a2f25686.chunk.js",
+    "static/media/valve_cover_timelapse.mp4": "/static/media/valve_cover_timelapse.67ce9d79319ed98828f8.mp4",
+    "static/media/whole_team.jpg": "/static/media/whole_team.f7ab28d94e5d119b71fa.jpg",
+    "static/media/driver_in_car.jpg": "/static/media/driver_in_car.b01db36765ca34c52890.jpg",
+    "static/media/on_trailer.jpg": "/static/media/on_trailer.e16db3b77884eba475b3.jpg",
+    "static/media/side_profile.jpg": "/static/media/side_profile.3372f54b636709763078.jpg",
+    "static/media/low_angle.jpg": "/static/media/low_angle.382802c65e218f94f51c.jpg",
+    "static/media/forward_interior.jpg": "/static/media/forward_interior.56e2961fb14c3feb23fa.jpg",
+    "static/media/engine.jpg": "/static/media/engine.21d3e7b49e67d5fa36bd.jpg",
+    "static/media/close_up_bez.jpg": "/static/media/close_up_bez.f9bbe4a2a726ba856a8c.jpg",
+    "static/media/wide_angle_bez.jpg": "/static/media/wide_angle_bez.e3b4185a5717f4a6afe2.jpg",
+    "static/media/final_cage.jpg": "/static/media/final_cage.8d3b2bec9f995b4d80c1.jpg",
+    "index.html": "/index.html",
+    "main.907a1ff1.css.map": "/static/css/main.907a1ff1.css.map",
+    "main.6a3536bd.js.map": "/static/js/main.6a3536bd.js.map",
+    "787.a2f25686.chunk.js.map": "/static/js/787.a2f25686.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.907a1ff1.css",
+    "static/js/main.6a3536bd.js"
+  ]
+}
