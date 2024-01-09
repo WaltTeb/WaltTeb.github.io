@@ -78,7 +78,7 @@ function App() {
 
               </p>
 
-              <video autoPlay loop>
+              <video autoPlay loop muted>
                 <source src={valve_cover_video} type='video/mp4'/>
               </video>
 
