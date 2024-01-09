@@ -22,6 +22,7 @@ import valve_cover_video from './resources/valve_cover_timelapse.mp4'
 
 function App() {
   const [viewLemons, setViewLemons] = useState(true);
+  const [viewBEZ, setViewBEZ] = useState(true);
   return (
     <body>
     <div className="App">
@@ -39,7 +40,7 @@ function App() {
         <h2>My Projects:</h2>
         
           
-              <h3 onClick={() => setViewLemons(!viewLemons)}>24hrs of Lemons Race Car 🏎️</h3>
+              <h3 onClick={() => setViewLemons(!viewLemons)}>{viewLemons ? '-':'+'} 24hrs of Lemons Race Car 🏎️</h3>
             {viewLemons && 
             <div className='project_container'>
               <p>
@@ -163,11 +164,12 @@ function App() {
             
             <br/>
             <div>
-              <h3>BreathalyEZ 🛜 </h3>
+              <h3 onClick={() => setViewBEZ(!viewBEZ)}>{viewBEZ ? '-':'+'} BreathalyEZ 🛜 </h3>
+              {viewBEZ && <div className='project_container'>
               <p>
                 Originally created as a hackathon project during <a href='https://hackumass.com/'>HackUMass XI</a> in October of 2023, 
-                BreathlyEZ is a wifi enabled breathalyzer. A last minute creation with my friend
-                <a href='https://github.com/Sinjiner'> Ashton P</a>, the original version of BreathlyEZ was created in 14 hours.
+                BreathlyEZ is a wifi enabled breathalyzer. A last minute creation with my friend <a href='https://github.com/Sinjiner'>Ashton P</a>, 
+                the original version of BreathlyEZ was created in 14 hours.
               </p>
 
               <ImageContainer
@@ -184,18 +186,20 @@ function App() {
 
               <p>
                 The BreathlyEZ consists of 4 main components: the MQ3 alcohol gas sensor, an Arduino UNO, a Raspberry Pi, and a React.js website.
-                The MQ3 alcohol gas sensor is able to detect the PPM of alcohol in a sample of air blown over it's ceramic heated resistor.
-                The Arduino UNO was used exclusively for analog to digital conversion (ADC), sending that value to the Raspberry Pi via serial port.
-                The Raspberry Pi performed the necessary calculations to convert PPM to blood alcohol content (BAC), this was value could then be obtained
-                by querying the web server being hosted on the Raspberry Pi.
-                Finally the React.js website was were the latest sample BAC was displayed, as well as a button to trigger a new sample collection.
+                <ol>
+                <li>The MQ3 alcohol gas sensor is able to detect the PPM of alcohol in a sample of air blown over it's ceramic heated resistor.</li>
+                <li>The Arduino UNO was used exclusively for analog to digital conversion (ADC), sending that value to the Raspberry Pi via serial port.</li>
+                <li>The Raspberry Pi performed the necessary calculations to convert PPM to blood alcohol content (BAC), this was value could then be obtained
+                by querying the web server being hosted on the Raspberry Pi.</li>
+                <li>Finally the React.js website displays the latest sample BAC, as well as a button to trigger a new sample collection.</li>
+                </ol>
               </p>
 
               <p>
                 BreathlyEZ is an ongoing project, make sure to check out its <a href='https://github.com/WaltTeb/BreathalyEZ'>GitHub repo</a> for updates
                 on the project!
               </p>
-
+              </div>}
             </div>
           
         
