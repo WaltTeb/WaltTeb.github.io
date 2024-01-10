@@ -30,9 +30,11 @@ function App() {
       <h1>Hello I'm Walter Tebbetts, it's nice to meet you &#128075;.</h1>
       <SocialIconsBar/>
       <h2>About me:</h2>
-      <p className='about_me'>I am currently a junior at the University of Massachusetts Amherst, where I am earning a BS in computer engineering.
+      <p className='about_me'>
+        I am currently a junior at the University of Massachusetts Amherst, where I am earning a BS in computer engineering and 
+        a BA in Computer Science.
         I am especially interested in low level systems programming, embedded systems, and web development! Check out some of my projects
-        and past experiences below.
+        below.
       </p>
 
 
