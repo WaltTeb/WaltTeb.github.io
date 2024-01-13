@@ -27,13 +27,13 @@ function LemonsEntry(){
               </p>
               <ul>
                 <li>
-                  <b>Team</b>: Me, <a href='https://www.linkedin.com/in/geoffreyadoyle/'>Geoff Doyle</a>, <a href='https://www.linkedin.com/in/noah-vamosy-207297278/'>Noah Vamosy</a>, and <a>Tom Doyle</a>.
+                  <b>Team:</b> Me, <a href='https://www.linkedin.com/in/geoffreyadoyle/'>Geoff Doyle</a>, <a href='https://www.linkedin.com/in/noah-vamosy-207297278/'>Noah Vamosy</a>, and <a>Tom Doyle</a>.
                 </li>
                 <li>
-                  <b>Skills</b>: Mig Welding, Automotive Engineering, Electronics, and Project Management.
+                  <b>Skills:</b> Mig Welding, Automotive Engineering, Electronics, and Project Management.
                 </li>
                 <li>
-                  <b>Impact</b>: Learn how to manage a team with varying skills and experience levels to achieve a common goal. 
+                  <b>Impact:</b> Learn how to manage a team with varying skills and experience levels to achieve a common goal. 
                   Taught myself new skills in electronics and metallurgy. Introduction to the iterative design process, learning to design
                   prototype and arrive at a final product.
                 </li>

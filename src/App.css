@@ -1,16 +1,25 @@
+:root{
+  --main_bg: #000;
+  --main_text: hsla(0, 0%, 100%, 0.822);
+  --header_text: #fff;
+  --clickable: #3291ff;
+  --border: rgba(147,197,253,.5);
+}
+
 body{
-  background-color: #27212e;
+  background-color: var(--main_bg);
   line-height: 1.75;
 }
 
 h1{
   text-align: center;
   margin-top: 0;
+  color: var(--header_text);
 }
 
 a{
   
-  color:rgb(241, 76, 35);
+  color: var(--clickable);
 }
 
 img{
@@ -24,32 +33,41 @@ video{
 }
 
 h2{
-  color: rgb(247, 182, 61);
+  color: var(--header_text);
 }
 
 h3{
-  color: lightcoral;
+  color: var(--clickable);
   cursor: pointer;
 }
 
+b{
+  color: var(--header_text);
+}
+
+
 ol li::marker{
-  color: lightcoral;
+  color: #2f81f7;
   font-size: 20px;
+  
+}
+
+ul li::marker{
+  color: var(--header_text);
 }
 
 ul{
   list-style-type: disc;
 }
 
+
 .App {
   text-align: left;
-  
   width: 60vw;
   position: absolute;
   left: 20vw;
   top: 50px;
-  
-  color: white;
+  color: var(--main_text);
 }
 
 .labeled_image{
@@ -58,13 +76,14 @@ ul{
   width: 50%;
   aspect-ratio: 1/1;
   
+  
 }
 .image_title{
   
   position: absolute;
   top: 0;
   text-align: center;
-  color: rgb(253, 252, 252);
+  color: var(--header_text);
   font-size: 25px;
   z-index: -1;
   opacity: 0%;
@@ -75,7 +94,7 @@ ul{
   z-index: 1;
   opacity: 100%;
   transition: 0.6s;
-  background-color: #27212ee3;
+  background-color: #161b22;
 }
 
 .socialIcon{
@@ -85,8 +104,12 @@ ul{
 .show_select{
   text-decoration: underline;
   text-align: center;
-  color: lightcoral;
+  color: var(--main_text);
   cursor: pointer;
+}
+
+.show_select:hover{
+  color: var(--header_text);
 }
 
 .project_expander::after{
@@ -104,7 +127,3 @@ ul{
   text-align: center;
 }
 
-#logo_svg{
-  width: 50px;
-  
-}

@@ -13,13 +13,13 @@ function BEZEntry(){
         <div className='project_preamble'>
         <ul>
           <li>
-            <b>Team</b>: <a href='https://www.linkedin.com/in/ashton-perkinson-325339253/'>Ashton Perkinson</a> and I.
+            <b>Team:</b> <a href='https://www.linkedin.com/in/ashton-perkinson-325339253/'>Ashton Perkinson</a> and I.
           </li>
           <li>
-            <b>Skills</b>: Embedded Systems, TypeScript, Python (Flask), Circuit Design, and Linux.
+            <b>Skills:</b> Embedded Systems, TypeScript, Python (Flask), Circuit Design, and Linux.
           </li>
           <li>
-            <b>Impact</b>: Integrating multiple different devices with an effective system design. Improved my skills in using GitHub to collaborate 
+            <b>Impact:</b> Integrating multiple different devices with an effective system design. Improved my skills in using GitHub to collaborate 
             and share code. Practiced fundamentals of embedded system design, specifically analog circuits, analog to digital conversion,
             and computer networking.
           </li>
