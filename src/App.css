@@ -1,6 +1,6 @@
 body{
   background-color: #27212e;
-  
+  line-height: 1.75;
 }
 
 h1{
@@ -11,10 +11,6 @@ h1{
 a{
   
   color:rgb(241, 76, 35);
-}
-
-p{
-  line-height: 1.75;
 }
 
 img{
@@ -33,6 +29,16 @@ h2{
 
 h3{
   color: lightcoral;
+  cursor: pointer;
+}
+
+ol li::marker{
+  color: lightcoral;
+  font-size: 20px;
+}
+
+ul{
+  list-style-type: disc;
 }
 
 .App {
@@ -76,9 +82,29 @@ h3{
   margin: 10px;
 }
 
+.show_select{
+  text-decoration: underline;
+  text-align: center;
+  color: lightcoral;
+  cursor: pointer;
+}
+
+.project_expander::after{
+  content: '\2212';
+  float: right;
+}
+.project_expander_active::after{
+  content: '\002B';
+  float: right;
+}
+
 
 #socialIconBar{
   position: relative;
   text-align: center;
 }
 
+#logo_svg{
+  width: 50px;
+  
+}
