@@ -4,6 +4,9 @@
   --header_text: #fff;
   --clickable: #3291ff;
   --border: rgba(147,197,253,.5);
+  
+  --main_text_width: calc(100vw - max(40vw, 20px));
+
 }
 
 body{
@@ -63,18 +66,17 @@ ul{
 
 .App {
   text-align: left;
-  width: 60vw;
-  position: absolute;
-  left: 20vw;
-  top: 50px;
+  width: var(--main_text_width);
+  margin: auto;
+  margin-top: 50px;
   color: var(--main_text);
 }
 
 .labeled_image{
   display: inline-block;
   position: relative;
-  width: 50%;
-  aspect-ratio: 1/1;
+  width: 100%;
+  aspect-ratio: 16/9;
   
   
 }
@@ -94,7 +96,7 @@ ul{
   z-index: 1;
   opacity: 100%;
   transition: 0.6s;
-  background-color: #161b22;
+  background-color: var(--main_bg);
 }
 
 .socialIcon{
