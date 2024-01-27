@@ -1,20 +1,20 @@
 import './App.css';
-import { useState } from 'react';
+
 
 import SocialIconsBar from './SocialIconsBar';
 
 import BEZEntry from './BEZEntry';
 import LemonsEntry from './LemonsEntry';
 
-import logo from './logo.svg'
+
+import DigThermEntry from './DigThermEntry';
 
 
 
 
 
 function App() {
-  const [viewLemons, setViewLemons] = useState(false);
-  // const [viewBEZ, setViewBEZ] = useState(false);
+ 
 
   return (
     <body>
@@ -45,6 +45,11 @@ function App() {
               <br/>
               <li>
                 <BEZEntry/>
+              </li>
+
+              <br />
+              <li>
+                <DigThermEntry/>
               </li>
 
               </ol>
