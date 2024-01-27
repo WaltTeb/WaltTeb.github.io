@@ -7,10 +7,6 @@ import BEZEntry from './BEZEntry';
 import LemonsEntry from './LemonsEntry';
 
 
-import DigThermEntry from './DigThermEntry';
-
-
-
 
 
 function App() {
@@ -47,10 +43,7 @@ function App() {
                 <BEZEntry/>
               </li>
 
-              <br />
-              <li>
-                <DigThermEntry/>
-              </li>
+      
 
               </ol>
             
