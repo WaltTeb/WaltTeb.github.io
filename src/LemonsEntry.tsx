@@ -14,7 +14,7 @@ import whole_team from './resources/whole_team.jpg';
 import valve_cover_video from './resources/valve_cover_timelapse.mp4'
 
 function LemonsEntry(){
-    const [viewLemons, setViewLemons] = useState(false);
+    const [viewLemons, setViewLemons] = useState(true);
 
     return(
         <>

@@ -4,7 +4,7 @@ import close_up_bez from './resources/close_up_bez.jpg';
 import wide_angle_bez from './resources/wide_angle_bez.jpg';
 
 function BEZEntry(){
-    const [viewBEZ, setViewBEZ] = useState(false);
+    const [viewBEZ, setViewBEZ] = useState(true);
 
     return(
         <>

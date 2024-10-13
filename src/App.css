@@ -72,6 +72,10 @@ ul{
   color: var(--main_text);
 }
 
+.about_me{
+  font-size:18px;
+}
+
 .labeled_image{
   display: inline-block;
   position: relative;
