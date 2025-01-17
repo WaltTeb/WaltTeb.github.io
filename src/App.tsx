@@ -5,6 +5,7 @@ import SocialIconsBar from './SocialIconsBar';
 
 import BEZEntry from './BEZEntry';
 import LemonsEntry from './LemonsEntry';
+import ToolTrackEntry from './ToolTrackEntry';
 
 
 
@@ -35,6 +36,11 @@ function App() {
           <h2>My Projects:</h2>
           
             <ol>
+              <li>
+                <ToolTrackEntry/>
+              </li>
+
+              <br/>
               <li>
                 <LemonsEntry/>
               </li>
