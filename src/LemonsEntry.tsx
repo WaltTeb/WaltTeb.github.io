@@ -18,13 +18,14 @@ function LemonsEntry(){
 
     return(
         <>
-        <h3 className={viewLemons ? 'project_expander': 'project_expander_active'} onClick={() => setViewLemons(!viewLemons)}> 24hrs of Lemons Race Car 🏎️ </h3>  
+        <div className='project_entry'>
+        <h2 id='project_name' className={viewLemons ? 'project_expander': 'project_expander_active'} onClick={() => setViewLemons(!viewLemons)}> 24hrs of Lemons Race Car 🏎️ </h2>  
            
             <div className='project_preamble'>
-              <p>
+              <h4>
                 A race car built to participate in the <a href="https://24hoursoflemons.com/">24hrs of Lemons</a> budget racing series.
                 Heavily involved automotive engineering, metal fabrication, and electronics.
-              </p>
+              </h4>
               <ul>
                 <li>
                   <b>Team:</b> Me, <a href='https://www.linkedin.com/in/geoffreyadoyle/'>Geoff Doyle</a>, <a href='https://www.linkedin.com/in/noah-vamosy-207297278/'>Noah Vamosy</a>, and <a>Tom Doyle</a>.
@@ -169,7 +170,8 @@ function LemonsEntry(){
               
             </div>}
 
-            <p className='show_select' onClick={() => setViewLemons(!viewLemons)}>{viewLemons ? 'Show Less...':'Show More...'}</p>
+            <p className='show_select' onClick={() => setViewLemons(!viewLemons)} >{viewLemons ? 'Show Less...':'Show More...'} </p>
+            </div>
             </>
     )
 }

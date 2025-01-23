@@ -20,12 +20,13 @@ function App() {
         <h1>Hello I'm Walter Tebbetts, it's nice to meet you &#128075;.</h1>
 
         <SocialIconsBar/>
+        <div className='item_divider'></div>
 
-        <h2>About me:</h2>
+        <h2 className='about_me_label'>About me:</h2>
         
         <ul className="about_me">
           <li>Current Senior at <a href="https://www.umass.edu/engineering/">University of Massachusetts Amherst.</a></li>
-          <li>Getting a BS in Computer Engineering, and a BA in Computer Science.</li>
+          <li>Getting a BS in Computer Engineering.</li>
           <li>Working in the <a href="https://groups.cs.umass.edu/ahha/">Advanced Human Health Analytics Laboratory</a>, building low-power 
           wearable sensors to help monitor stroke survivors during recovery.</li>
           <li>Actively searching for new grad postions starting summer 2025.</li>
@@ -33,25 +34,24 @@ function App() {
         </ul>
 
         <div className="projects_section">
-          <h2>My Projects:</h2>
+        <div className='item_divider'></div>
+          <h2 className='project_section_label'>My Projects:</h2>
           
-            <ol>
-              <li>
+            <ol className='projects_list'>
+            
+              <li className='project_list_item'>
                 <ToolTrackEntry/>
               </li>
 
-              <br/>
-              <li>
+              <div className='item_divider'></div>
+              <li className='project_list_item'>
                 <LemonsEntry/>
               </li>
 
-              <br/>
-              <li>
+              <div className='item_divider'></div>              
+              <li className='project_list_item'>
                 <BEZEntry/>
               </li>
-
-      
-
               </ol>
             
         </div>

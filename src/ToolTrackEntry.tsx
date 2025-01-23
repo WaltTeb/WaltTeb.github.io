@@ -13,7 +13,8 @@ function ToolTrackEntry(){
 
     return (
         <>
-        <h3 className={viewToolTrack ? 'project_expander': 'project_expander_active'} onClick={() => setViewToolTrack(!viewToolTrack)}>BareTag Tool Tracker</h3>
+        <div className='project_entry'>
+        <h2 id='project_name' className={viewToolTrack ? 'project_expander': 'project_expander_active'} onClick={() => setViewToolTrack(!viewToolTrack)}>BareTag Tool Tracker</h2>
 
         <div className='project_preamble'>
             <h4>
@@ -52,21 +53,18 @@ function ToolTrackEntry(){
                     that prevents theft, a very common and costly problem in the construction industry, as well as improve efficiency on the jobsite. 
                 </p>
 
-                <p>
-                    The central technology is Ultra Wideband (UWB) Radio. UWB is a radio technology that uses low energy radio pulses to transmit data. It is decent 
-                    at transmitting data, ~1 gigabit per second, however, UWB is exceptionally good at distance ranging.
-                </p>
-                <p>
-                    By sending UWB pulses from each of our Anchors to our Tag we can measure the distance from each Anchor to the Tag. This distance data is then transmitted
-                    over Long Range (LoRa) radio to the base station. At the base station, all this distance information, along with the known starting location of each
-                    Anchor can be run through a <b>trilateration</b> algorithm in order to calculate the Tag's current location.
-                </p>
-
                 <ImageContainer
                     source={SystemOverview}
                     altText='System overview diagram'
                     title='System overview'>
                 </ImageContainer>
+                <p>
+                    The central technology is Ultra Wideband (UWB) Radio. UWB is a radio technology that uses low energy radio pulses to transmit data. It is decent 
+                    at transmitting data, ~1 gigabit per second, however, UWB is exceptionally good at distance ranging.
+                    By sending UWB pulses from each of our Anchors to our Tag we can measure the distance from each Anchor to the Tag. This distance data is then transmitted
+                    over Long Range (LoRa) radio to the base station. At the base station, all this distance information, along with the known starting location of each
+                    Anchor can be run through a <b>trilateration</b> algorithm in order to calculate the Tag's current location.
+                </p>
                 
                 <h4>The Tag:</h4>
                 <p>
@@ -83,7 +81,7 @@ function ToolTrackEntry(){
                 <ImageContainer
                     source={TagBack}
                     altText='Back of Tag PCB'
-                    title='Back of Tag PCB ,v1'>
+                    title='Back of Tag PCB, v1'>
                 </ImageContainer>
 
                 <h4>The Anchor:</h4>
@@ -123,12 +121,13 @@ function ToolTrackEntry(){
                     network, allowing tools to continue to be tracked after they leave the jobsite.
                 </p>
 
-                <p>
+                <p className='last_p_in_entry'>
                     The BareTag Tool Tracker is an ongoing project, so make sure to check out the <a href='https://github.com/WaltTeb/BareTag_Tool_Tracker'>GitHub repo</a> for the most up to date information on the project!
                 </p>
 
             </div>
 
+        </div>
         </div>
         </>
     )

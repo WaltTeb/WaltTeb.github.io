@@ -8,7 +8,8 @@ function BEZEntry(){
 
     return(
         <>
-        <h3 onClick={() => setViewBEZ(!viewBEZ)} className={viewBEZ ? 'project_expander': 'project_expander_active'}>BreathalyEZ 🛜 </h3>
+        <div className='project_entry'>
+        <h2 id='project_name' onClick={() => setViewBEZ(!viewBEZ)} className={viewBEZ ? 'project_expander': 'project_expander_active'}>BreathalyEZ 🛜 </h2>
               
         <div className='project_preamble'>
         <ul>
@@ -66,6 +67,7 @@ function BEZEntry(){
         </div>}
 
         <p className='show_select' onClick={() => setViewBEZ(!viewBEZ)}>{viewBEZ ? 'Show Less...':'Show More...'}</p>
+        </div>
         </>
     )
 }

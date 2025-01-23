@@ -1,8 +1,8 @@
 :root{
-  --main_bg: #000;
+  --main_bg: #20232B;
   --main_text: hsla(0, 0%, 100%, 0.822);
   --header_text: #fff;
-  --clickable: #3291ff;
+  --clickable: rgb(207, 181, 59);
   --border: rgba(147,197,253,.5);
   
   --main_text_width: calc(100vw - max(40vw, 20px));
@@ -39,18 +39,13 @@ h2{
   color: var(--header_text);
 }
 
-h3{
-  color: var(--clickable);
-  cursor: pointer;
-}
 
 b{
   color: var(--header_text);
 }
 
-
 ol li::marker{
-  color: #2f81f7;
+  color: var(--clickable);
   font-size: 20px;
   
 }
@@ -68,8 +63,10 @@ ul{
   text-align: left;
   width: var(--main_text_width);
   margin: auto;
-  margin-top: 50px;
+  padding-top: 50px;
   color: var(--main_text);
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
 }
 
 .about_me{
@@ -112,12 +109,22 @@ ul{
   text-align: center;
   color: var(--main_text);
   cursor: pointer;
+  margin-bottom: 0;
+  padding-bottom: 10px;
 }
 
 .show_select:hover{
   color: var(--header_text);
 }
 
+.project_expander{
+  margin: 0px;
+  padding-top: 18px;
+}
+.project_expander_active{
+  margin: 0px;
+  padding-top: 18px;
+}
 .project_expander::after{
   content: '\2212';
   float: right;
@@ -128,9 +135,37 @@ ul{
 }
 
 
+.about_me_label{
+  padding-left: 20px;
+}
+.project_section_label{
+  margin-top: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.project_entry{
+  padding-right: 40px;
+}
+.item_divider{
+  border-bottom: 1px solid var(--border);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 -50vw;
+  width: 200%;
+
+}
+.last_p_in_entry{
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
 #socialIconBar{
   position: relative;
   text-align: center;
 }
-
+#project_name{
+  color: var(--clickable);
+  cursor: pointer;
+}
 
