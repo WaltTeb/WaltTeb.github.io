@@ -6,7 +6,16 @@
   --border: rgba(147,197,253,.5);
   
   --main_text_width: calc(100vw - max(40vw, 20px));
+ 
+  --border_padding: 2vw;
+  --entry_centering_padding: 2.5vw;
+}
 
+@media only screen and (max-width: 600px){
+  :root{
+    --main_text_width: 99vw;
+    --entry_centering_padding: 5.5vw;
+  }
 }
 
 body{
@@ -136,25 +145,32 @@ ul{
 
 
 .about_me_label{
-  padding-left: 20px;
+  padding-left: var(--border_padding);
 }
 .project_section_label{
   margin-top: 0;
-  padding-top: 20px;
-  padding-left: 20px;
+  padding-top: var(--border_padding);
+  padding-left: var(--border_padding);
 }
-.project_entry{
-  padding-right: 40px;
-}
+
 .item_divider{
   border-bottom: 1px solid var(--border);
   position: absolute;
   left: 0;
   right: 0;
-  margin: 0 -50vw;
-  width: 200%;
+  width: 100vw;
 
 }
+
+.project_entry{
+  margin-right: 5px;
+  padding-right: var(--entry_centering_padding);
+}
+.projects_list{
+  margin-left: 5px;
+  padding-left: var(--entry_centering_padding);
+}
+
 .last_p_in_entry{
   margin-bottom: 0;
   padding-bottom: 10px;

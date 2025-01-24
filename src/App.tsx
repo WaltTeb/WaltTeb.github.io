@@ -29,7 +29,7 @@ function App() {
           <li>Getting a BS in Computer Engineering.</li>
           <li>Working in the <a href="https://groups.cs.umass.edu/ahha/">Advanced Human Health Analytics Laboratory</a>, building low-power 
           wearable sensors to help monitor stroke survivors during recovery.</li>
-          <li>Actively searching for new grad postions starting summer 2025.</li>
+          <li>Actively searching for full-time postions starting Summer 2025.</li>
           <li>Especially interested in low-power computing, system software, and aerospace electronics.</li>
         </ul>
 

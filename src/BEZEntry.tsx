@@ -49,7 +49,7 @@ function BEZEntry(){
         />
         </div>
         {viewBEZ && <div className='project_container'>
-        <p>
+        
           The BreathlyEZ consists of 4 main components: the MQ3 alcohol gas sensor, an Arduino UNO, a Raspberry Pi, and a React.js website.
           <ol>
           <li>The MQ3 alcohol gas sensor is able to detect the PPM of alcohol in a sample of air blown over it's ceramic heated resistor.</li>
@@ -58,7 +58,7 @@ function BEZEntry(){
           by querying the web server being hosted on the Raspberry Pi.</li>
           <li>Finally the React.js website displays the latest sample BAC, as well as a button to trigger a new sample collection.</li>
           </ol>
-        </p>
+        
 
         <p>
           BreathlyEZ is an ongoing project, make sure to check out its <a href='https://github.com/WaltTeb/BreathalyEZ'>GitHub repo</a> for updates
